@@ -25,12 +25,12 @@ const Login = () => {
           type="password"
           name="password"
           id="password"
-          placeholder="********"
+          placeholder="***********"
           className="login__input-password"
         />
       </div>
-      <button>
-        <Link to={"/home"}>Entrar</Link>
+      <button type="submit">
+        <Link to={"/Home"}>Entrar</Link>  
       </button>
     </section>
   );
