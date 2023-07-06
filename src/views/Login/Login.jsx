@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./index.scss";
 import Header from "../../components/Header/Header";
+import Home from "../Home/Home";
 
 const Login = () => {
   return (
@@ -30,7 +31,7 @@ const Login = () => {
         />
       </div>
       <button type="submit">
-        <Link to={"/Home"}>Entrar</Link>  
+        <Link to={"/Pay/1"}>Entrar</Link>  
       </button>
     </section>
   );
