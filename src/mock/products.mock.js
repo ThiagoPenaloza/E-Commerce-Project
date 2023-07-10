@@ -3,16 +3,16 @@ export const PRODUCTS_MOCK = [
         id: 1,
         imgPath: 'image1.svg',
         imgPathDetail: '../image1.svg',
-        title: 'Cropped manga curta',
+        title: 'Cropped Manga Curta Branco',
         price: 139.9,
-        colors: ['Black'],
+        colors: ['White'],
         sizes: ['p', 'm', 'g', 'gg']
     },
     {
         id: 2,
         imgPath: 'image2.svg',
         imgPathDetail: '../image2.svg',
-        title: 'Blazer',
+        title: 'Blazer Preto',
         price: 109.9,
         colors: ['Black', 'Red'],
         sizes: ['p', 'm', 'g']
@@ -21,16 +21,16 @@ export const PRODUCTS_MOCK = [
         id: 3,
         imgPath: 'image3.svg',
         imgPathDetail: '../image3.svg',
-        title: 'Blazer',
+        title: 'Blazer Marrom',
         price: 159.9,
-        colors: ['Red', 'Green'],
+        colors: ['Brown', 'Red'],
         sizes: ['p', 'm', 'g', 'gg']
     },
     {
         id: 4,
         imgPath: 'image4.svg',
         imgPathDetail: '../image4.svg',
-        title: 'Cropped',
+        title: 'Cropped Manga Cumprida',
         price: 189.9,
         colors: ['Black', 'White', 'Blue'],
         sizes: ['p', 'm', 'gg']

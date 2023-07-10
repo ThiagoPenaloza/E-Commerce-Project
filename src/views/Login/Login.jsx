@@ -31,7 +31,7 @@ const Login = () => {
         />
       </div>
       <button type="submit">
-        <Link to={"/Pay/1"}>Entrar</Link>  
+        <Link to="/home">Entrar</Link>
       </button>
     </section>
   );
