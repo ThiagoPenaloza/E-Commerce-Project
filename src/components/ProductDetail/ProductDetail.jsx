@@ -20,10 +20,12 @@ const ProductDetail = ({ data }) => {
         <p>
           Cor:{" "}
           {data.colors.length === 1
-            ? data.colors.map((color, index) => (
+            ? //Condição for verdadeira:
+              data.colors.map((color, index) => (
                 <span key={index}>{color}</span>
               ))
-            : data.colors.map((color, index) =>
+            : //Condição não for verdadeira
+              data.colors.map((color, index) =>
                 index + 1 === data.colors.length ? (
                   <span key={index}>{color}</span>
                 ) : (
@@ -48,6 +50,7 @@ const ProductDetail = ({ data }) => {
         <div className="product-detail__sizes">
           {data.sizes.map((size) => (
             <span
+              className="product-detail__span"
               style={{
                 width: "55px",
                 height: "58px",

@@ -13,12 +13,12 @@ const Login = () => {
         <h2>você pode entrar com o seu CPF</h2>
       </div>
       <div className="login__input-wrapper">
-        <label htmlFor="name">Digite seu CPF:</label>
+        <label htmlFor="cpf">Digite seu CPF:</label>
         <input
           type="text"
-          name="Nome completo"
+          name="cpf"
           id="name"
-          placeholder="Nome completo"
+          placeholder="123.456.789-01"
           className="login__input-name"
         />
         <label htmlFor="password">Senha:</label>
